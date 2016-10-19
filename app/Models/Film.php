@@ -24,6 +24,13 @@ class Film extends Model
     protected $table = 'film';
     
     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+    
+    /**
      * Get the index name for the model.
      *
      * @return string
